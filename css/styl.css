@@ -1,0 +1,46 @@
+ul,ol{
+    list-style: none;
+}
+@font-face {
+    font-family: montserrat;
+    src: url(/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(/fonts/Poppins/Poppins-Regular.ttf);
+}
+p{
+    font-family: poppins;
+}
+h1{
+    font-family: poppins;
+}
+a{
+    font-family: poppins;
+}
+span{
+    font-family: poppins;
+}
+h2{
+    font-family: poppins;
+}
+h3{
+    font-family: poppins;
+}
+h4{
+    font-family: poppins;
+}
+h5{
+    font-family: poppins;
+}
+h6{
+    font-family: poppins;
+}
+li{
+    font-family: poppins;
+}
+
+header h1{
+    font-family: montserrat;
+}

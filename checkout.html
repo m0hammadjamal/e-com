@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout</title>
+    <link rel="stylesheet" href="/css/styl.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <header class="flex justify-between h-[100px] pl-[54px] pr-[100px] items-center">
+        <div class="flex items-center">
+            <img src="/home_img/logo.png" alt="logo" class="w-[50px] h-[32px] mr-[5px]">
+            <h1 class="text-[32px] font-[700]">
+                Furniro
+            </h1>
+        </div>
+        <div class="">
+            <ul class="flex">
+                <li class="text-[16px] font-[500] mr-[20px]">
+                    <a href="/index.html">Home</a>
+                </li>
+                <li class="text-[16px] font-[500] mr-[20px]">
+                    <a href="/shop.html">Shope</a>
+                </li>
+                <li class="text-[16px] font-[500] mr-[20px]">
+                    <a href="/s_product.html">About</a>
+                </li>
+                <li class="text-[16px] font-[500] mr-[20px]">
+                    <a href="/contact.html">Contact</a>
+                </li>
+                <li class="text-[16px] font-[500]">
+                    <a href="/blog.html">Blog</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="flex">
+                <li><a href="#"><img src="/home_img/account.svg" alt="ac" class="h-[28px] w-[28px] mr-[20px]"></a></li>
+                <li><a href="#"><img src="/home_img/search.svg" alt="search" class="h-[28px] w-[28px] mr-[20px]"></a></li>
+                <li><a href="#"><img src="/home_img/heart.svg" alt="like" class="h-[28px] w-[28px] mr-[20px]"></a></li>
+                <li><a href="#"><img src="/home_img/cart.svg" alt="cart" class="h-[28px] w-[28px]"></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section>
+        <div class="relative">
+            <img src="/shop_img/shop_bg.png" alt="shop">
+            <div class="absolute bottom-[90px] left-[46%]">
+                <img src="/home_img/logo.png" alt="logo" class="ml-[25px]">
+                <h2 class="text-[#000] text-[48px] font-[500] ml-[-60px]">
+                    Checkout
+                </h2>
+                <ul class="flex items-center">
+                    <li class="text-[#000] text-[16px] font-[500]">home</li>
+                    <li><img src="/shop_img/black_right_arrow.svg" alt="right"></li>
+                    <li class="text-[#000] text-[16px] font-[300]">Shop</li>
+                </ul>
+            </div>
+    </section>
+
+    <section class="flex px-[100px] justify-between py-[80px]">
+        <div class="40%">
+            <h1 class="text-[36px] text-[#000] font-[600] mb-[20px]">
+                Billing details
+            </h1>
+            <form>
+                <label for="name" class="mr-[92px] text-[#000] text-[16px] font-[500] mb-[10px] inline-block">First name</label>
+                <label for="lname" class="text-[#000] text-[16px] font-[500] mb-[10px] inline-block">Last name</label><br>
+                <input type="text" id="name" class="border-[1px] border-[#9F9F9F] w-[160px] h-[60px] rounded-[10px] mb-[25px]">
+                <input type="text" id="lname" class="border-[1px] border-[#9F9F9F] w-[160px] h-[60px] rounded-[10px]"><br>
+                <label for="cname" class="text-[#000] text-[16px] font-[500] mb-[10px] inline-block">Company Name (Optional)</label><br>
+                <input type="text" id="cname" class="border-[1px] border-[#9F9F9F] w-[320px] h-[60px] rounded-[10px] mb-[25px]"><br>
+                <label for="region" class="text-[#000] text-[16px] font-[500] mb-[10px] inline-block">Country / Region</label><br>
+                <select id="region" class="border-[1px] border-[#9F9F9F] w-[320px] h-[60px] rounded-[10px] mb-[25px]">
+                    <option value="">Sri lanka</option>
+                    <option value="">India</option>
+                </select><br>
+                <label for="address" class="text-[#000] text-[16px] font-[500] mb-[10px] inline-block">Street address</label><br>
+                <input type="text" id="address" class="border-[1px] border-[#9F9F9F] w-[320px] h-[60px] rounded-[10px] mb-[25px]"><br>
+                <label for="city" class="text-[#000] text-[16px] font-[500] mb-[10px] inline-block">Town / City</label><br>
+                <input type="text" id="city" class="border-[1px] border-[#9F9F9F] w-[320px] h-[60px] rounded-[10px] mb-[25px]"><br>
+                <label for="Province" class="text-[#000] text-[16px] font-[500] mb-[10px] inline-block">Province</label><br>
+                <select id="Province" class="border-[1px] border-[#9F9F9F] w-[320px] h-[60px] rounded-[10px] mb-[25px]">
+                    <option value="">western Province</option>
+                    <option value="">soutern Province</option>
+                </select><br>
+                <label for="zip" class="text-[#000] text-[16px] font-[500] mb-[10px] inline-block">ZIP code</label><br>
+                <input type="text" id="zip" class="border-[1px] border-[#9F9F9F] w-[320px] h-[60px] rounded-[10px] mb-[25px]"><br>
+                <label for="phone" class="text-[#000] text-[16px] font-[500] mb-[10px] inline-block">Phone</label><br>
+                <input type="text" id="phone" class="border-[1px] border-[#9F9F9F] w-[320px] h-[60px] rounded-[10px] mb-[25px]"><br>
+                <label for="email" class="text-[#000] text-[16px] font-[500] mb-[10px] inline-block">Email address</label><br>
+                <input type="text" id="email" class="border-[1px] border-[#9F9F9F] w-[320px] h-[60px] rounded-[10px] mb-[25px]"><br>
+                <input type="text" placeholder="Additional information" id="Additional" class="border-[1px] border-[#9F9F9F] w-[320px] h-[60px] rounded-[10px] mb-[25px]">
+            </form>
+        </div>
+        <div class="w-[40%] pt-[70px]">
+            <div class="flex justify-between mb-[25px] pb-[25px] border-b-[1px]">
+                <ul>
+                    <li class="text-[#000] text-[24] font-[500] mb-[10px]">product</li>
+                    <li class="text-[#9F9F9F] text-[16px] font-[400] mb-[10px]">Asgaard sofa X 1</li>
+                    <li class="text-[16px] font-[400] mb-[10px]">Subtotal</li>
+                    <li class="text-[16px] font-[400]">Total</li>
+                </ul>
+                <ul>
+                    <li class="text-[#000] text-[24] font-[500] mb-[10px]">Subtotal</li>
+                    <li class="text-[#9F9F9F] text-[16px] font-[400] mb-[10px]">Rs. 250,000.00</li>
+                    <li class="text-[#9F9F9F] text-[16px] font-[400] mb-[10px]">Rs. 250,000.00</li>
+                    <li class="text-[#B88E2F] text-[24px] font-[700] ml-[-50px]">Rs. 250,000.00</li>
+                </ul>
+            </div>
+            <form>
+                <input type="checkbox" id="pay1" class="rounded-[50%] mb-[20px]">
+                <label for="pay1" class="text-[16px] font-[400] pl-[3px]">Direct Bank Transfer</label>                
+            </form>
+            <p class="text-[#9F9F9F] text-justify text-[16px] font-[300] mb-[20px]">
+                Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.
+            </p>
+            <form>
+                <input type="checkbox" id="pay2">
+                <label for="pay2" class="text-[#9F9F9F] pl-[3px] text-[16px] font-[400] mb-[10px]">Direct Bank Transfer</label><br>
+                <input type="checkbox" id="pay3">
+                <label for="pay3" class="text-[#9F9F9F] pl-[3px] text-[16px] font-[400] mb-[10px]">Cash On Delivery</label>                
+            </form>
+            <p class="text-justify text-[16px] font-[300] mt-[30px]">
+                Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <span class="text-[20px] font-[500]">privacy policy</span>.
+            </p>
+            <button class="text-[20px] font-[400] py-[13px] px-[80px] mt-[50px] border-[1px] border-[#000] rounded-[10px] ml-[70px]">Place order</button>
+        </div>
+    </section>
+
+    <section class="px-[50px] h-[250px] bg-[#FAF3EA] py-[100px] mb-[10px]">
+        <ul class="flex justify-between">
+            <li class="flex">
+                <img src="/shop_img/trophy 1.svg" alt="trophy">
+                <ul class="ml-[10px]">
+                    <li class="text-[#242424] text-[20px] font-[600] leading-[37.5px]">High Quality</li>
+                    <li class="text-[#898989] text-[16px] font-[500] leading-[30px]">crafted from top materials</li>
+                </ul>
+            </li>
+            <li class="flex">
+                <img src="/shop_img/guarantee.svg" alt="guarentee">
+                <ul class="ml-[10px]">
+                    <li class="text-[#242424] text-[20px] font-[600] leading-[37.5px]">Warranty Protection</li>
+                    <li class="text-[#898989] text-[16px] font-[500] leading-[30px]">Over 2 years</li>
+                </ul>
+            </li>
+            <li class="flex">
+                <img src="/shop_img/shipping.svg" alt="shipping">
+                <ul class="ml-[10px]">
+                    <li class="text-[#242424] text-[20px] font-[600] leading-[37.5px]">Free Shipping</li>
+                    <li class="text-[#898989] text-[16px] font-[500] leading-[30px]">Order over 150 $</li>
+                </ul>
+            </li>
+            <li class="flex">
+                <img src="/shop_img/customer-support.svg" alt="customer_care">
+                <ul class="ml-[10px]">
+                    <li class="text-[#242424] text-[20px] font-[600] leading-[37.5px]">24 / 7 Support</li>
+                    <li class="text-[#898989] text-[16px] font-[500] leading-[30px]">Dedicated support</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="" style="border-top: 1px solid rgba(0, 0, 0, 0.17);">
+        <div class="flex justify-between mt-[60px] px-[50px]">
+            <div>
+                <h3 class="text-[#000] text-[24px] font-[700] mb-[50px]">
+                    Funiro.
+                </h3>
+                <p class="text-[#9F9F9F] text-[16px] font-[400]">
+                    400 University Drive Suite 200 Coral <br>Gables, <br>FL 33134 USA
+                </p>
+            </div>
+            <div>
+                <h4 class="text-[#9F9F9F] text-[16px] font-[500] mb-[50px]">Links</h4>
+                <ul>
+                    <li class="text-[#000] text-[16px] font-[500] mb-[46px]"><a href="#">Home</a></li>
+                    <li class="text-[#000] text-[16px] font-[500] mb-[46px]"><a href="">Shop</a></li>
+                    <li class="text-[#000] text-[16px] font-[500] mb-[46px]"><a href="">About</a></li>
+                    <li class="text-[#000] text-[16px] font-[500]"><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-[#9F9F9F] text-[16px] font-[500] mb-[50px]">Help</h4>
+                <ul>
+                    <li class="text-[#000] text-[16px] font-[500] mb-[46px]"><a href="#">Payment Options</a></li>
+                    <li class="text-[#000] text-[16px] font-[500] mb-[46px]"><a href="#">Returns</a></li>
+                    <li class="text-[#000] text-[16px] font-[500]"><a href="#">Privacy Policies</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-[#9F9F9F] text-[16px] font-[500] mb-[50px]">Newsletter</h4>
+                <form>
+                    <input type="text" placeholder="Enter Your Email Address" id="email" class="border-b-[1px] border-[#000]">
+                    <label for="email" class="border-b-[1px] border-[#000] text-[#000] text-[16px] font-[500]">SUBSCRIBE</label>
+                </form>
+            </div>
+        </div>
+        <div class="w-[90%] h-[1px] bg-[#D9D9D9] mt-[30px] mb-[20px] m-auto"></div>
+        <p class="text-[#000] text-[16px] font-[400] mb-[30px] pl-[60px]">2023 furino. All rights reverved</p>
+    </footer>
+
+</body>
+</html>
